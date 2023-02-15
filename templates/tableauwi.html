@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Projects</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/modern-business.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/certi.css')}}">
+
+    <!--Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176288475-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-176288475-1');
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="{{ url_for('home') }}#page-top">PORTFOLIO</a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="{{ url_for('home') }}#about">About</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="{{ url_for('home') }}#projects">projects</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="{{ url_for('home') }}#certificate">Certificates</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="{{ url_for('home') }}#contact">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="https://www.linkedin.com/in/ebanuchandar" target="_blank">Linkedin</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="https://github.com/ebccbe" target="_blank">Github</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="masthead"
+        style="background-image: url('https://images.unsplash.com/photo-1579959368919-87012d6d2a80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80')">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h1 class="text-uppercase text-light font-weight-bold">Indian states by wildlife population</h1>
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <!-- <p class="text-white-75 font-weight-light mb-5">Top 20 Suburbs of Chicago are been considered as prospective locations for the new restaurant. Based on analysis of various data collected from United States Census Bureau and Foursquare API, ideal suburb will be identified for the new restaurant.</p>-->
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://github.com/ebccbe/Tableau-Indian_states-wildlife_population"
+                        target="_blank">GIT</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h3 class="page-section-heading text-center text-black">Tableau Visualization</h3>
+                    <hr class="divider my-4" />
+                </div>
+                <div class='tableauPlaceholder' id='viz1598552932713' style='width:100%'><noscript><a href='#'><img alt=' '
+                                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;Wildlife_Species&#47;Dashboard1&#47;1_rss.png'
+                                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                        <param name='embed_code_version' value='3' />
+                        <param name='site_root' value='' />
+                        <param name='name' value='Wildlife_Species&#47;Dashboard1' />
+                        <param name='tabs' value='no' />
+                        <param name='toolbar' value='yes' />
+                        <param name='static_image'
+                            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wi&#47;Wildlife_Species&#47;Dashboard1&#47;1.png' />
+                        <param name='animate_transition' value='yes' />
+                        <param name='display_static_image' value='yes' />
+                        <param name='display_spinner' value='yes' />
+                        <param name='display_overlay' value='yes' />
+                        <param name='display_count' value='yes' />
+                        <param name='language' value='en' />
+                        <param name='filter' value='publish=yes' /></object>
+                </div>
+                <script
+                    type='text/javascript'>                    var divElement = document.getElementById('viz1598552932713'); var vizElement = divElement.getElementsByTagName('object')[0]; if (divElement.offsetWidth > 800) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else if (divElement.offsetWidth > 500) { vizElement.style.width = '1000px'; vizElement.style.height = '827px'; } else { vizElement.style.width = '100%'; vizElement.style.height = '777px'; } var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+                </script>
+
+                <div class="col-lg-8 text-center">
+                    <h3 class="page-section-heading text-center text-black"></h3>
+                    <hr class="divider my-4" />
+                    <h3 class="text-left">Data</h3>
+                        <p class="text-muted mb-5 text-left">
+                            Data used in this visualization was extracted from a wikipedia page know as <a href="https://en.wikipedia.org/wiki/List_of_Indian_states_by_wildlife_population">List of Indian states by wildlife population</a> and the data was saved in an excel file.
+                        </p>
+                        <p class="text-muted mb-5 text-center">Table1 : Wildlife Population, Source - Wikipedia 
+                            <img src="{{url_for('static',filename='assets/img/tableauwi/wikitable.png')}}" style="width:100%">
+                        </p>
+                    <h3 class="text-left">Data Preparation</h3>
+                        <p class="text-muted mb-5 text-left">
+                            Data saved in excel needs to be unpivoted for creating a better visualization in Tableau. Data has been unpivoted by
+                            <ol class="text-muted mb-5 text-left">
+                                <li>Select all (Ctrl+A) data cells in excel and click Ctrl+T to create a table</li>
+                                    <p class="text-muted mb-5 text-center">Fig 1: Create table
+                                        <img src="{{url_for('static',filename='assets/img/tableauwi/excel1.png')}}" style="width:100%">
+                                    </p>
+                                <li>Data>From Table/Range</li>
+                                    <p class="text-muted mb-5 text-center">Fig 2: From Table/Range
+                                        <img src="{{url_for('static',filename='assets/img/tableauwi/excel2.png')}}" style="width:100%">
+                                    </p>
+                                <li>Select columns needs to be unpivoted, click Close & Load</li>
+                                    <p class="text-muted mb-5 text-center">Fig 3:Unpivoting columns
+                                        <img src="{{url_for('static',filename='assets/img/tableauwi/excel3.png')}}" style="width:100%">
+                                    </p>
+                                <li>Unpivoted columns will look like the following</li>
+                                    <p class="text-muted mb-5 text-center">Fig 4:Unpivoted data
+                                        <img src="{{url_for('static',filename='assets/img/tableauwi/excel4.png')}}" style="width:100%">
+                                    </p>
+                            </ol>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    </section>
+<!-- Footer-->
+<footer class="bg-light py-5">
+    <div class="container">
+        <div class="small text-center text-muted">Copyright © 2020 - EBC DS</div>
+    </div>
+</footer>
+
+<!-- Bootstrap Js -->
+<script src="{{url_for('static',filename='jquery/jquery.min.js')}}"></script>
+<script src="{{url_for('static',filename='bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+</body>
+
+</html>
